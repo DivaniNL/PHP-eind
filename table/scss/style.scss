@@ -1,0 +1,22 @@
+table {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    border: none;
+    tr{
+        td{
+            width: 100px;
+            height: 100px;
+            text-align: center;
+        }
+    }
+    tr:nth-of-type(1) {
+        td {
+            background-color: #333;
+            color: white;
+
+        }
+    }
+    
+}
